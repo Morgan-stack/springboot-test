@@ -3,8 +3,8 @@ services:
     container_name: postgres
     image: postgres
     environment:
-      POSTGRES_USER: amigoscode
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: sam
+      POSTGRES_PASSWORD: test
       PGDATA: /data/postgres
     volumes:
       - db:/data/postgres
