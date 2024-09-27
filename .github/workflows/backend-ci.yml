@@ -22,7 +22,7 @@ jobs:
             POSTGRES_PASSWORD: test
             POSTGRES_DB: customer
           ports:
-            -"5332:5432"
+            - "5332:5432"
           # Set health checks to wait until postgres has started
           options: >-
             --health-cmd pg_isready
